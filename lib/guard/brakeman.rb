@@ -30,7 +30,8 @@ module Guard
         :run_on_start => false,
         :chatty => false,
         :min_confidence => 1,
-        :quiet => false
+        :quiet => false,
+        :ignore_file => "config/brakeman.ignore"
       }.merge!(options)
     end
 
